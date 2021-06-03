@@ -1,0 +1,95 @@
+/* Homepage */
+body{background-image:url("./images/background1.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+#Header h1{font-style:initial;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+justify-content: left;
+margin-right: 750px;
+margin-left: 50px;
+color: rgb(251, 251, 251);}
+
+#box1{
+  font-style:initial;
+  font-size: 26px;
+  color:rgb(255, 255, 255);}
+ 
+#box2 {border-style: double;
+border-color: rgb(251, 251, 251);}
+
+
+img{
+    width: 400px;
+    height: 400px;}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+    background-color: grey;
+  font-size: 28px;}
+
+.homepageinfo{display: flex;
+  flex-direction:row-reverse;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;}
+
+/* infomationpage */
+
+.infopageimages{
+  display: flex;
+flex-direction: row;
+justify-content: center}
+
+.info{display: flex;
+  flex-direction: row;
+  justify-content: center;
+color:whitesmoke;
+gap: 30px;
+font-size: 28px;}
+
+#title1{display: flex;
+justify-content: left;
+margin-right: 600px;}
+
+.Titles{display: flex;
+  flex-direction: row;
+  justify-content: center;
+color:whitesmoke;
+font-size: 32px;
+gap: 50px}
+
+
+.videos{display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  margin: 50px auto 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  
+}
+
+#video1{width: 400px;
+height: 250px;
+object-fit: fill;}
+
+#video2{width: 400px;
+  height: 250px;
+object-fit: fill;}
+
+  #video3{width: 400px;
+    height: 250px;
+  object-fit: fill;}
+
+  /* copyright */
+  .copyright{display: flex;
+    flex-direction: row;
+    justify-content: center;
+margin-top: 500px;
+    color:whitesmoke;}
